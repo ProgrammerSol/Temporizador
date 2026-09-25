@@ -1,0 +1,32 @@
+  body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f4f4f9;
+        }
+        .container {
+            text-align: center;
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+        #temporizador {
+            font-size: 4rem;
+            font-weight: bold;
+            color: #ff5722;
+            margin: 20px 0;
+        }
+        #mensaje {
+            font-size: 1.1rem;
+            color: #666;
+            min-height: 24px;
+        }
