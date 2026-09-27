@@ -1,4 +1,4 @@
-# ⏳ Temporizador - Coming Soon
+# ⏳ Temporizador 
 
 ¡Un proyecto web interactivo de cuenta regresiva con diseño moderno, animaciones dinámicas y efectos visuales festivos! Este temporizador fue desarrollado como parte de mis prácticas de programación web.
 
@@ -32,5 +32,5 @@ Si deseas clonar y probar este repositorio en tu computadora, sigue estos pasos:
    ```bash
    git clone [https://github.com/programmersol/Temporizador.git](https://github.com/programmersol/Temporizador.git)
    
-👩‍💻 Autor
+## 👩‍💻 Autor
 Temporizador hecho por Sol Peraza.   
