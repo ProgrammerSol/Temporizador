@@ -3,18 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Temporizador</title>
+    <title>Coming Soon - Temporizador</title>
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
     <div class="container">
-        <h1>Cuenta Regresiva</h1>
-        <!-- Aquí es donde se mostrará el número en pantalla -->
-        <div id="temporizador">20</div>
+        <!-- Líneas decorativas y texto principal -->
+        <div class="header-wrapper">
+            <div class="line-top"></div>
+            <h1>TEMPORIZADOR</h1>
+            <div class="line-bottom"></div>
+        </div>
+
+        <p class="sub-text">ESPERA HASTA EL FINAL PARA VER LA MAGIA.</p>
+
+        <!-- Contenedor de las 2 casillas del temporizador -->
+        <div class="countdown-container">
+            <!-- Casilla 1 -->
+            <div class="countdown-box">
+                <div id="temporizador-1">00</div>
+                <span class="label">MINUTES</span>
+            </div>
+
+            <!-- Casilla 2 -->
+            <div class="countdown-box">
+                <div id="temporizador">60</div>
+                <span class="label">SECONDS</span>
+            </div>
+        </div>
+
+        <!-- Mensaje de estado -->
         <div id="mensaje"></div>
+    <p class="footer-text">El tiempo no se detiene, pero tú puedes decidir cómo aprovecharlo al máximo en cada cuenta regresiva.<br>Cada segundo cuenta cuando estás construyendo el <strong>futuro</strong> que imaginas.
+        <br>
+        <strong>Temporizador hecho por <a href="https://github.com/programmersol" target="_blank">Sol Peraza</a></strong></p>
     </div>
 
-    <script src="index.js"></script>
+    <!-- Contenedor para la animación de estrellas -->
+    <div id="estrellas-container"></div>
 
+    <script src="index.js"></script>
 </body>
 </html>
