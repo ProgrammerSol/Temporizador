@@ -178,13 +178,70 @@ h1 {
         opacity: 0;
     }
 }
+
 .footer-text a {
-    color: #ffeb3b; /* Cambia este valor al tono de gris que más te guste */
-    text-decoration: none; /* Opcional: quita el subrayado predeterminado */
-    font-weight: 600; /* Opcional: para darle un poco más de grosor */
+    color: #555555; /* Gris oscurito que habías pedido */
+    text-decoration: none;
+    font-weight: 600;
 }
 
-/* Opcional: si quieres que cambie de color al pasar el ratón por encima */
 .footer-text a:hover {
     color: #888888; 
+}
+
+/* ==========================================
+   DISEÑO RESPONSIVO (MÓVILES Y TABLETS)
+   ========================================== */
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.5rem; /* Reduce el tamaño del título principal en celulares */
+        letter-spacing: 3px;
+    }
+
+    .line-top, .line-bottom {
+        width: 220px; /* Acorta las líneas para que no desborden la pantalla móvil */
+    }
+
+    .sub-text {
+        font-size: 0.75rem;
+        margin-bottom: 25px;
+    }
+
+    .countdown-box {
+        width: 90px;
+        height: 90px; /* Hace las cajas un poco más compactas */
+    }
+
+    #temporizador, #temporizador-1 {
+        font-size: 2.8rem; /* Ajusta el número interior */
+    }
+
+    .footer-text {
+        font-size: 0.5rem;
+        padding: 0 10px; /* Evita que el texto toque los bordes laterales del celular */
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    .line-top, .line-bottom {
+        width: 160px;
+    }
+
+    .countdown-container {
+        gap: 15px;
+    }
+
+    .countdown-box {
+        width: 80px;
+        height: 80px;
+    }
+
+    #temporizador, #temporizador-1 {
+        font-size: 2.4rem;
+    }
 }
